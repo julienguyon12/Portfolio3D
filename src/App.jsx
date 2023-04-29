@@ -1,0 +1,23 @@
+import styled from 'styled-components';
+import Contact from './Components/Contact';
+import Hero from './Components/Hero';
+import Who from './Components/Who';
+import Works from './Components/Works';
+
+const Container = styled.div`
+  height: 100vh;
+  background-color: #663399;
+`;
+
+function App() {
+  return (
+    <Container>
+      <Hero />
+      <Who />
+      <Works />
+      <Contact />
+    </Container>
+  );
+}
+
+export default App;
